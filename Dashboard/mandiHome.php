@@ -1,4 +1,7 @@
 <?php
+if(session_id() == ''){
+  header('location: ../index.html');
+}
 session_start();
 include '../database_driver/db.php';
     $_SESSION['logout']=44;
