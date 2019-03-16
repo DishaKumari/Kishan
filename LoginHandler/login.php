@@ -1,4 +1,4 @@
-<?php
+0<?php
 session_start();
 $error_array=array();
 if (isset($_POST["login"]))
@@ -64,20 +64,20 @@ if (isset($_POST["login"]))
 
 			}
 		}
-		
+	// Removing agri expert to implement AI
 
-	elseif ($optradio==5) {
-		$r=mysqli_query($con,"select * from eredg where username='$username' and password='$password'");
-		if ($arr=mysqli_fetch_assoc($r))
-			{
-				$_SESSION['eid']=$eid;
-				header('location: ../dashboard/expertHome.php');
-			}
-			else{
-				header('location: ../index.html');
+	// elseif ($optradio==5) {
+	// 	$r=mysqli_query($con,"select * from eredg where username='$username' and password='$password'");
+	// 	if ($arr=mysqli_fetch_assoc($r))
+	// 		{
+	// 			$_SESSION['eid']=$eid;
+	// 			header('location: ../dashboard/expertHome.php');
+	// 		}
+	// 		else{
+	// 			header('location: ../index.html');
 
-			}
-		}
+	// 		}
+	// 	}
 	else{
 		header('location: ../index.html');
 	}

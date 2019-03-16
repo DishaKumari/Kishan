@@ -1,7 +1,7 @@
 <?php
-if(session_id() == ''){
-  header('location: ../index.html');
-}
+// if(session_id() == ''){
+//   header('location: ../index.html');
+// }
 session_start();
 session_destroy();
 $logout=$_SESSION['logout'];

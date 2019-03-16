@@ -167,8 +167,8 @@ $(document).ready(function(){
           
           <!-- Modal body -->
           <div class="modal-body">
-            <img src="<?php $far['pic']; ?>" class="rounded mx-auto d-block" height="200px" width="200px" alt="Cinque Terre">
-            <h1>$far['name'];</h1>
+            <img src="<?php echo $far['pic']; ?>" class="rounded mx-auto d-block" height="15px" width="15px" alt="Profile image">
+            <h1><?php echo $far['name']; ?></h1>
           </div>
           
           <!-- Modal footer -->
@@ -531,7 +531,7 @@ $(document).ready(function(){
                             </thead>
                             <tbody>
                               <tr>
-                                <td><img src="https://  .com/" class="rounded" height="32px" width="32px" alt="Cinque Terre"></td>
+                                <td><img src="https://thispersondoesnotexist.com/image" class="rounded" height="32px" width="32px" alt="Cinque Terre"></td>
                                 <td>Atla Harish</td>
                                 <td><i class="fa fa-phone" aria-hidden="true"><a href="tel:+918298143224">+918298143224</a></i></td>
                               </tr>
