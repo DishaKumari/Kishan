@@ -500,17 +500,17 @@ $(document).ready(function(){
                             </thead>
                             <tbody>
                               <tr>
-                                <td><img src="https://thispersondoesnotexist.com" class="rounded" height="32px" width="32px" alt="Cinque Terre"></td>
+                                <td><img src="https://thispersondoesnotexist.com/image" class="rounded" height="32px" width="32px" alt="Cinque Terre"></td>
                                 <td>Atla Harish</td>
                                 <td><i class="fa fa-phone" aria-hidden="true"><a href="tel:+918298143224">+918298143224</a></i></td>
                               </tr>
                               <tr>
-                                <td><img src="https://thispersondoesnotexist.com" class="rounded" height="32px" width="32px" alt="Cinque Terre"></td>
+                                <td><img src="https://thispersondoesnotexist.com/image" class="rounded" height="32px" width="32px" alt="Cinque Terre"></td>
                                 <td>John Snow</td>
                                 <td><i class="fa fa-phone" aria-hidden="true"><a href="tel:+918298143224">+917094538234</a></i></td>
                               </tr>
                               <tr>
-                                <td><img src="https://thispersondoesnotexist.com" class="rounded" height="32px" width="32px" alt="Cinque Terre"></td>
+                                <td><img src="https://thispersondoesnotexist.com/image" class="rounded" height="32px" width="32px" alt="Cinque Terre"></td>
                                 <td>Suraj Lee</td>
                                 <td><i class="fa fa-phone" aria-hidden="true"><a href="tel:+918298143224">+919834567292</a></i></td>
                               </tr>
