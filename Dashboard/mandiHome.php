@@ -1731,19 +1731,19 @@ include '../database_driver/db.php';
                             </thead>
                             <tbody>
                               <tr>
-                                <td><img src="https://thispersondoesnotexist.com/" class="rounded" height="32px" width="32px" alt="Cinque Terre"></td>
+                                <td><img src="https://thispersondoesnotexist.com/image" class="rounded" height="32px" width="32px" alt="Cinque Terre"></td>
                                 <td>Sampark Behera</td>
                                 <td>The price is higher than expected.</td>
                               </tr>
                               <tr>
-                                <td><img src="https://thispersondoesnotexist.com/" class="rounded" height="32px" width="32px" alt="Cinque Terre"></td>
+                                <td><img src="https://thispersondoesnotexist.com/image" class="rounded" height="32px" width="32px" alt="Cinque Terre"></td>
                                 <td>Kalia Mohato</td>
                                 <td>Government should focus on decentralized teaching of farmers rather than waiving off their loans 
                                     because this is going to help them only once but providing them with knowledge will help them all 
                                     through the life.</td>
                               </tr>
                               <tr>
-                                <td><img src="https://thispersondoesnotexist.com/" class="rounded" height="32px" width="32px" alt="Cinque Terre"></td>
+                                <td><img src="https://thispersondoesnotexist.com/image" class="rounded" height="32px" width="32px" alt="Cinque Terre"></td>
                                 <td>Dev Prasad</td>
                                 <td> Monsoon dependant agriculture makes it susceptible to the problems of Irrigation which is still inadequate despite measures taken by the government.</td>
                               </tr>
