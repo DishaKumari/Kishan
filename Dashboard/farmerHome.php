@@ -503,10 +503,8 @@ $(document).ready(function(){
                         </div>
                     </div>
                 </div>
-                <div id="map_canvas" style=" border: 2px solid #3872ac;">
-
-                </div>
             </div>
+            <div id="map_canvas" style=" border: 2px solid #3872ac;"></div>
             <div class="col-md-4 col-sm-12">
                 <div class="card">
                     <div class="card-header text-center">Expert's Advice</div>
