@@ -280,7 +280,7 @@ $(document).ready(function(){
                               <br>
                                   </table>
                               
-                            
+                            <div id="map_canvas" style=" border: 2px solid #3872ac;"></div>
                             <div class="modal fade" id="myModal">
                                 <div class="modal-dialog modal-sm">
                                   <div class="modal-content">
@@ -553,7 +553,7 @@ $(document).ready(function(){
             </div>
         </div>
     </div>
-    <div id="map_canvas" style=" border: 2px solid #3872ac;"></div>
+    
     <script>
       function initMap() {
           var cuttack = { lat: 20.4625, lng: 85.8830 };
