@@ -1,4 +1,7 @@
 <?php
+    if(session_id() == ''){
+    header('location: ../index.html');
+    }
     session_start();
     $fid=$_SESSION['fid'];
     $lid=$_SESSION['lid'];
@@ -11,7 +14,6 @@
             header('location: ../Dashboard/farmerHome.php');
         }
         else{
-            header('location: error.html');
-        	header('location: error.html');
+            header('location: ../Dashboard/farmerHome.php');
         }
 ?>
