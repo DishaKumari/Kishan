@@ -3,6 +3,9 @@
 //   header('location: ../index.html');
 // }
 session_start();
+if(session_id() == ''){
+  header('location: ../index.html');
+}
     $fid=$_SESSION['fid']; 
     $_SESSION['logout']=22;
     include '../database_driver/db.php';
