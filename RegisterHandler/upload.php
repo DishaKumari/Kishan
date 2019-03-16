@@ -51,7 +51,7 @@ if (isset($_POST["register"]))
 
 	$name = strip_tags($_POST["name"]);
 	$username =strip_tags($_POST["username"]);
-	$password = sha1($_POST["password"]);
+	$password = md5($_POST["password"]);
     $uid = strip_tags($_POST["uid"]);
     $city = strip_tags($_POST["city"]);
     $district = strip_tags($_POST["district"]);
