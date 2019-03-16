@@ -84,7 +84,7 @@ if (isset($_POST["submit"]))
 	echo $des;
 
 	// include '../database_driver/db.php';
-	$con = mysqli_connect("localhost","root","","kisan") or die ("conn fail");
+	$con = mysqli_connect("localhost","root","123456","kisan") or die ("conn fail");
 	$result=mysqli_query($con,"INSERT INTO addland( lid, area, price, month, crop, year, des, tot, pic) values ('$lid', '$area', '$price', '$month', '$crop', '$year', '$des', '$tot','$pic')");
 
 
