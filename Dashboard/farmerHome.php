@@ -1,4 +1,7 @@
 <?php
+if(session_id() == ''){
+  header('location: ../index.html');
+}
 session_start();
     $fid=$_SESSION['fid']; 
     $_SESSION['logout']=22;
