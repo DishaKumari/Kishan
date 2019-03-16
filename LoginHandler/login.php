@@ -5,7 +5,7 @@ if (isset($_POST["login"]))
 {
 	include'../database_driver/db.php';
 	$username=strip_tags(mysqli_real_escape_string($con,$_POST["username"]));
-	$password=md5(mysqli_real_escape_string($con,$_POST["password"]));
+	$password=sha1(mysqli_real_escape_string($con,$_POST["password"]));
 	$optradio = strip_tags($_POST["optradio"]);
 
 	if ($optradio==1) {

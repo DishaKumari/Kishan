@@ -51,7 +51,7 @@ if (isset($_POST["register"]))
 
 	$name = strip_tags($_POST["name"]);
 	$username =strip_tags($_POST["username"]);
-	$password = md5($_POST["password"]);
+	$password = sha1($_POST["password"]);
     $uid = strip_tags($_POST["uid"]);
     $city = strip_tags($_POST["city"]);
     $district = strip_tags($_POST["district"]);
@@ -105,13 +105,5 @@ if (isset($_POST["register"]))
         else{header('location: register.html');}
     }
 
-    if ($optradio==5) {
-        $r=mysqli_query($con,"INSERT INTO eredg(name, username, password, pic, uid, city, district) VALUES ('$name','$username','$password','$pic','$uid','$city','$district')");
-        if ($r>0)
-        {
-            header('location: ../Dashboard/expertHome.php');
-        }
-        else{header('location: register.html');}
-    }
 } 
 ?>    
