@@ -66,18 +66,18 @@ if (isset($_POST["login"]))
 		}
 		
 
-	elseif ($optradio==5) {
-		$r=mysqli_query($con,"select * from eredg where username='$username' and password='$password'");
-		if ($arr=mysqli_fetch_assoc($r))
-			{
-				$_SESSION['eid']=$eid;
-				header('location: ../dashboard/expertHome.php');
-			}
-			else{
-				header('location: ../index.html');
+	// elseif ($optradio==5) {
+	// 	$r=mysqli_query($con,"select * from eredg where username='$username' and password='$password'");
+	// 	if ($arr=mysqli_fetch_assoc($r))
+	// 		{
+	// 			$_SESSION['eid']=$eid;
+	// 			header('location: ../dashboard/expertHome.php');
+	// 		}
+	// 		else{
+	// 			header('location: ../index.html');
 
-			}
-		}
+	// 		}
+	// 	}
 	else{
 		header('location: ../index.html');
 	}
