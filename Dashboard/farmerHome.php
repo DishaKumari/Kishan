@@ -167,8 +167,8 @@ $(document).ready(function(){
           
           <!-- Modal body -->
           <div class="modal-body">
-            <img src="https://thispersondoesnotexist.com/image" class="rounded mx-auto d-block" height="200px" width="200px" alt="Cinque Terre">
-            <h1>Jhenerique Tulio</h1>
+            <img src="<?php $far['pic']; ?>" class="rounded mx-auto d-block" height="200px" width="200px" alt="Cinque Terre">
+            <h1>$far['name'];</h1>
           </div>
           
           <!-- Modal footer -->
