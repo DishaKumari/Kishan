@@ -551,7 +551,9 @@ $(document).ready(function(){
                     </div>
                 </div>
             </div>
-            <div id="map_canvas" style=" border: 2px solid #3872ac;"></div>
+        </div>
+    </div>
+    <div id="map_canvas" style=" border: 2px solid #3872ac;"></div>
             <script>
               function initMap() {
                   var cuttack = { lat: 20.4625, lng: 85.8830 };
@@ -566,8 +568,6 @@ $(document).ready(function(){
             <script async defer
                 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBvluQ1RpPOc_z2wsQd3xoJeDwUglLqxc&callback=initMap">
               </script>
-        </div>
-    </div>
     <!-- Body ended -->
     <br><br><br><br>
 
