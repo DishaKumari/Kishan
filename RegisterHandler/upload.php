@@ -105,13 +105,13 @@ if (isset($_POST["register"]))
         else{header('location: register.html');}
     }
 
-    // if ($optradio==5) {
-    //     $r=mysqli_query($con,"INSERT INTO eredg(name, username, password, pic, uid, city, district) VALUES ('$name','$username','$password','$pic','$uid','$city','$district')");
-    //     if ($r>0)
-    //     {
-    //         header('location: ../Dashboard/expertHome.php');
-    //     }
-    //     else{header('location: register.html');}
-    // }
+    if ($optradio==5) {
+        $r=mysqli_query($con,"INSERT INTO eredg(name, username, password, pic, uid, city, district) VALUES ('$name','$username','$password','$pic','$uid','$city','$district')");
+        if ($r>0)
+        {
+            header('location: ../Dashboard/expertHome.php');
+        }
+        else{header('location: register.html');}
+    }
 } 
 ?>    
