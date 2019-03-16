@@ -2,8 +2,8 @@
 session_start();
 	$lid=$_SESSION['lid'];
 	
-// if (isset($_POST["submit"]))
-// {
+if (isset($_POST["submit"]))
+{
 // 	// 
 
 // 	$target_dir = "../assets/uploads/";
