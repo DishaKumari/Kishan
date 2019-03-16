@@ -33,7 +33,7 @@
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
 
-#map {
+#map_canvas {
   height: 400px;  /* The height is 400 pixels */
   width: 100%;  /* The width is the width of the web page */
 }
