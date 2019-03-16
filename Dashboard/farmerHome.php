@@ -1,8 +1,11 @@
 <?php
+// if(session_id() == ''){
+//   header('location: ../index.html');
+// }
+session_start();
 if(session_id() == ''){
   header('location: ../index.html');
 }
-session_start();
     $fid=$_SESSION['fid']; 
     $_SESSION['logout']=22;
     include '../database_driver/db.php';
@@ -168,7 +171,7 @@ $(document).ready(function(){
           <!-- Modal body -->
           <div class="modal-body">
             <img src="<?php $far['pic']; ?>" class="rounded mx-auto d-block" height="200px" width="200px" alt="Cinque Terre">
-            <h1>$far['name'];</h1>
+            <h1><?php $far['name']; ?></h1>
           </div>
           
           <!-- Modal footer -->
