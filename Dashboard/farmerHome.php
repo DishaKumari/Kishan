@@ -169,7 +169,7 @@ $(document).ready(function(){
           <div class="modal-body">
             <div class="row">
               <div class="col-md-5"><img src="<?php echo $far['pic']; ?>" class="rounded mx-auto d-block" height="120px" width="120px" alt="Profile image"></div>
-              <div class="col-md-5"><p><?php echo $far['name']; ?></p></div>
+              <div class="col-md-5"><h2><?php echo $far['name']; ?></h2></div>
             </div>
           </div>
           
@@ -506,7 +506,7 @@ $(document).ready(function(){
                     </div>
                 </div>
             </div>
-            
+            <div id="map_canvas" style=" border: 2px solid #3872ac;"></div>
             <div class="col-md-4 col-sm-12">
                 <div class="card">
                     <div class="card-header text-center">Expert's Advice</div>
@@ -551,7 +551,6 @@ $(document).ready(function(){
                     </div>
                 </div>
             </div>
-            <div id="map_canvas" style=" border: 2px solid #3872ac;"></div>
         </div>
     </div>
     <!-- Body ended -->
