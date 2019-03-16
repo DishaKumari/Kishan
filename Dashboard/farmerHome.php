@@ -167,8 +167,10 @@ $(document).ready(function(){
           
           <!-- Modal body -->
           <div class="modal-body">
-            <img src="<?php echo $far['pic']; ?>" class="rounded mx-auto d-block" height="15px" width="15px" alt="Profile image">
-            <h1><?php echo $far['name']; ?></h1>
+            <div class="row">
+              <div class="col-md-5"><img src="<?php echo $far['pic']; ?>" class="rounded mx-auto d-block" height="120px" width="120px" alt="Profile image"></div>
+              <div class="col-md-5"><p><?php echo $far['name']; ?></p></div>
+            </div>
           </div>
           
           <!-- Modal footer -->
