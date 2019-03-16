@@ -1,3 +1,3 @@
 <?php
-$con = mysqli_connect("localhost","root","","kisan") or die ("conn fail");
+$con = mysqli_connect("localhost","root","123456","kisan") or die ("conn fail");
 ?>
