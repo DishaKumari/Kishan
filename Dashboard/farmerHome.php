@@ -552,6 +552,20 @@ $(document).ready(function(){
                 </div>
             </div>
             <div id="map_canvas" style=" border: 2px solid #3872ac;"></div>
+            <script>
+              function initMap() {
+                  var cuttack = { lat: 20.4625, lng: 85.8830 };
+                  var cuttack1 = { lat: 20.4725, lng: 85.8530 };
+                  var map = new google.maps.Map(
+                      document.getElementById('map_canvas'), { zoom: 18, center: cuttack });
+                  var marker = new google.maps.Marker({ position: cuttack, map: map });
+                  var marker = new google.maps.Marker({ position: cuttack1, map: map });
+              }
+            </script>
+
+            <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBvluQ1RpPOc_z2wsQd3xoJeDwUglLqxc&callback=initMap">
+            </script>
         </div>
     </div>
     <!-- Body ended -->
@@ -636,20 +650,6 @@ $(document).ready(function(){
 
   </footer>
   <!-- Footer -->
-  <script>
-        function initMap() {
-            var cuttack = { lat: 20.4625, lng: 85.8830 };
-            var cuttack1 = { lat: 20.4725, lng: 85.8530 };
-            var map = new google.maps.Map(
-                document.getElementById('map_canvas'), { zoom: 18, center: cuttack });
-            var marker = new google.maps.Marker({ position: cuttack, map: map });
-            var marker = new google.maps.Marker({ position: cuttack1, map: map });
-        }
-
-    </script>
-
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBvluQ1RpPOc_z2wsQd3xoJeDwUglLqxc&callback=initMap">
-        </script>
+  
 </body>
 </html>
