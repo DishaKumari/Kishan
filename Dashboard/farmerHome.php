@@ -553,6 +553,7 @@ $(document).ready(function(){
             </div>
         </div>
     </div>
+    <br><br>
     <div class="container" id="map_canvas" style=" border: 2px solid #3872ac;"></div>
     <script>
       function initMap() {
