@@ -1,6 +1,6 @@
 <?php
 // if(session_id() == ''){
-  header('location: ../index.html');
+//   header('location: ../index.html');
 // }
 session_start();
 include '../database_driver/db.php';
