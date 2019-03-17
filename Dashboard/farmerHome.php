@@ -553,7 +553,7 @@ $(document).ready(function(){
             </div>
         </div>
     </div>
-    <br><br>
+    <h1>Land Location</h1>
     <div class="container" id="map_canvas" style=" border: 2px solid #3872ac;"></div>
     <script>
       function initMap() {
@@ -568,7 +568,7 @@ $(document).ready(function(){
       }
     </script>
     <!-- Body ended -->
-    <br><br><br><br>
+    <br><br>
 
     <!-- Footer -->
   <footer class="page-footer font-small blue pt-4 container-fluid" style="
