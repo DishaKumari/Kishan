@@ -280,7 +280,7 @@ $(document).ready(function(){
                               <br>
                                   </table>
                               
-                            <div id="map_canvas" style=" border: 2px solid #3872ac;"></div>
+                            
                             <div class="modal fade" id="myModal">
                                 <div class="modal-dialog modal-sm">
                                   <div class="modal-content">
@@ -553,19 +553,22 @@ $(document).ready(function(){
             </div>
         </div>
     </div>
-    
+    <h1 class="text-center">Land Location</h1>
+    <div class="container" id="map_canvas" style=" border: 2px solid #3872ac;"></div>
     <script>
       function initMap() {
           var cuttack = { lat: 20.4625, lng: 85.8830 };
-          var cuttack1 = { lat: 20.4725, lng: 85.8530 };
+          var cuttack1 = { lat: 20.4845, lng: 85.8652 };
+          var cuttack2 = { lat: 20.4772, lng: 85.8626 };
           var map = new google.maps.Map(
-              document.getElementById('map_canvas'), { zoom: 18, center: cuttack });
+              document.getElementById('map_canvas'), { zoom: 14, center: cuttack });
           var marker = new google.maps.Marker({ position: cuttack, map: map });
           var marker = new google.maps.Marker({ position: cuttack1, map: map });
+          var marker = new google.maps.Marker({ position: cuttack2, map: map });
       }
     </script>
     <!-- Body ended -->
-    <br><br><br><br>
+    <br><br>
 
     <!-- Footer -->
   <footer class="page-footer font-small blue pt-4 container-fluid" style="

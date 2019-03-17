@@ -34,6 +34,5 @@
 .grow:hover { transform: scale(1.1); }
 
 #map_canvas {
-  height: 400px;  /* The height is 400 pixels */
-  width: 100%;  /* The width is the width of the web page */
+  height: 400px;  /* The height is 400 pixels */  /* The width is the width of the web page */
 }
