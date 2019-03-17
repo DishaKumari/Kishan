@@ -1,6 +1,7 @@
 <?php
 session_start();
     $rid=$_SESSION['rid']; 
+    if ($rid > 0) {
     $_SESSION['logout']=33;
     include '../database_driver/db.php';
     // $res=mysqli_query($con,"select * from retail where rid='$rid'");
@@ -221,3 +222,9 @@ $(document).ready(function(){
   <!-- Footer -->
 </body>
 </html>
+<?php
+}
+   else {
+     header('location: ../index.html');
+   }
+?>

@@ -6,6 +6,7 @@ session_start();
 include '../database_driver/db.php';
     $_SESSION['logout']=44;
     $mid=$_SESSION['mid'];
+    if ($mid > 0) {
     $_SESSION['mid']=$mid;
 ?>
 <!DOCTYPE html>
@@ -1756,3 +1757,7 @@ include '../database_driver/db.php';
     </div>
     </div>
 </body>
+<?php  }
+   else {
+     header('location: ../index.html');
+   } ?>
