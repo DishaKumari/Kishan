@@ -553,7 +553,7 @@ $(document).ready(function(){
             </div>
         </div>
     </div>
-    <div id="map_canvas" style=" border: 2px solid #3872ac;"></div>
+    <div class="container" id="map_canvas" style=" border: 2px solid #3872ac;"></div>
     <script>
       function initMap() {
           var cuttack = { lat: 20.4625, lng: 85.8830 };
