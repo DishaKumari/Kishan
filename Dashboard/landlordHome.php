@@ -1,7 +1,7 @@
 <?php
-// if(session_id() == ''){
-  header('location: ../index.html');
-// }
+if(session_id() == ''){
+  header('location: ../error.html');
+}
 session_start();
 include '../database_driver/db.php';
 $lid=$_SESSION['lid'];
