@@ -5,6 +5,7 @@ if(session_id() == ''){
 session_start();
 include '../database_driver/db.php';
 $lid=$_SESSION['lid'];
+if ($lid > 0) {
 $_SESSION['lid']=$lid;
 $_SESSION['logout']=11;
 $res=mysqli_query($con,"select * from lredg where lid='$lid'");
@@ -373,3 +374,9 @@ $(document).ready(function(){
 </body>
 
 </html>
+<?php 
+}
+   else {
+     header('location: ../index.html');
+   }
+?>
