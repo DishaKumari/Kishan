@@ -553,7 +553,7 @@ $(document).ready(function(){
             </div>
         </div>
     </div>
-    <h1 class="txt-center">Land Location</h1>
+    <h1 class="text-center">Land Location</h1>
     <div class="container" id="map_canvas" style=" border: 2px solid #3872ac;"></div>
     <script>
       function initMap() {
