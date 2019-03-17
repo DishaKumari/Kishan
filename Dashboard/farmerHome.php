@@ -557,11 +557,13 @@ $(document).ready(function(){
     <script>
       function initMap() {
           var cuttack = { lat: 20.4625, lng: 85.8830 };
-          var cuttack1 = { lat: 20.4725, lng: 85.8530 };
+          var cuttack1 = { lat: 20.4845, lng: 85.8652 };
+          var cuttack2 = { lat: 20.4772, lng: 85.8626 };
           var map = new google.maps.Map(
               document.getElementById('map_canvas'), { zoom: 18, center: cuttack });
           var marker = new google.maps.Marker({ position: cuttack, map: map });
           var marker = new google.maps.Marker({ position: cuttack1, map: map });
+          var marker = new google.maps.Marker({ position: cuttack2, map: map });
       }
     </script>
     <!-- Body ended -->
