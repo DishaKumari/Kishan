@@ -4,7 +4,7 @@
 // }
 session_start();
     $fid=$_SESSION['fid']; 
-   if ($fid > 1) {
+   if ($fid > 0) {
       $_SESSION['logout']=22;
     include '../database_driver/db.php';
     $res=mysqli_query($con,"select * from fredg where fid='$fid'");
